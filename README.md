@@ -5,3 +5,5 @@ Junior Programmer Pathway from UnityLearn.
 [Mini-football](https://play.unity.com/mg/other/prototype-4-95)
 
 [Balloon game](https://play.unity.com/mg/other/webgl-builds-153127)
+
+[Food Clicker!](https://play.unity.com/mg/other/prototype-5-69)
