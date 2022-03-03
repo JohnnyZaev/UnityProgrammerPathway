@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI gameOverText;
     public Button restartButton;
+    public GameObject titleScreen;
+
     private int score;
 
     private float spawnRate = 1.0f;
@@ -20,6 +22,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+    }
+
+    public void StartGame(int difficulty)
+    {
+        spawnRate /= difficulty;
+        titleScreen.gameObject.SetActive(false);
         isGameActive = true;
         score = 0;
         scoreText.text = "Score: " + score;
